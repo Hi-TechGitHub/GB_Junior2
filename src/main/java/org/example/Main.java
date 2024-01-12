@@ -85,7 +85,7 @@ public class Main {
                 makeSoundMethod = animal.getClass().getMethod("makeSound");
                 makeSoundMethod.invoke(animal);
             } catch (Exception e) {
-                System.out.println("No makeSound() method found for this animal.");
+                System.out.println("Error");
             }
             System.out.println();
         }
